@@ -95,3 +95,29 @@ This creates the packages.json file.
 * Run application and look at the two main pages.
 http://localhost:49579/MyDomain/MyPage
 http://localhost:49579/MyDomain/MyCacheBustedPage
+
+## Karma Javascript Testing
+###Karma Infrastructure
+```
+D:\dev\prototype\AspNetAndGulpDemo\Webapp> npm install karma --save-dev
+D:\dev\prototype\AspNetAndGulpDemo\Webapp> npm install karma-jasmine --save-dev
+D:\dev\prototype\AspNetAndGulpDemo\Webapp\MyDomain> npm install karma-cli --save-dev
+```
+###Configuration
+```
+D:\dev\prototype\AspNetAndGulpDemo\Webapp\MyDomain> ..\node_modules\.bin\karma init karma.conf.js
+```
+(creates karma.conf.js file)
+
+###Test file
+* Added javascript test file: MyPageViewModelSpec.js
+
+###Run Tests
+```
+D:\dev\prototype\AspNetAndGulpDemo\Webapp\MyDomain> ..\node_modules\.bin\karma start --single-run
+```
+
+Or, set them to run continuously, every time a file gets saved:
+```
+D:\dev\prototype\AspNetAndGulpDemo\Webapp\MyDomain> ..\node_modules\.bin\karma start
+```
