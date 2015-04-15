@@ -108,6 +108,7 @@
     <Content Include="MyDomain\MyCacheBustedPage.aspx" />
     <Content Include="MyDomain\MyPage.aspx" />
     <Content Include="MyDomain\Scripts\MyPageViewModel.js" />
+    <Content Include="MyDomain\tests\MyPageViewModelSpec.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
