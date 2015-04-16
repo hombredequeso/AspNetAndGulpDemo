@@ -1,4 +1,4 @@
-﻿describe('MyPageViewModel Tests', function () {
+﻿describe('MyPageViewModel', function () {
     it("ViewModel exists", function () {
         var viewModel = myApp.myDomain.myPageViewModel();
         expect(viewModel).toBeDefined();

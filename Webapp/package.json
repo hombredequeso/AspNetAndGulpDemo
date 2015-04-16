@@ -1,13 +1,8 @@
 {
   "name": "Webapp",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "version": "0.0.1",
+  "description": "A sample application demonstrating ASP.NET Webforms integration with gulp, and karma.",
+  "author": "Mark Cheeseman",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
